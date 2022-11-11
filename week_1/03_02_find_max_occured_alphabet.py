@@ -18,6 +18,7 @@ def find_max_occurred_alphabet(string):
             max_alphabet_index = index
             max_occurence = alphabet_occurrence
         print(max_alphabet_index)
+        return chr(max_alphabet_index + ord("a"))
 
 
 result = find_max_occurred_alphabet(input)
